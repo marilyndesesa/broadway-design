@@ -6,7 +6,6 @@ body{
 h1{
   font-size: 70px;
   font-weight: bold;
-  color: white;
 }
 
 h2{
@@ -19,13 +18,8 @@ h3{
   font-weight: bold;
 }
 
-h3.white{
-  color: white;
-}
-
 li{
   font-size: 18px;
-  color: white;
   list-style-type: none;
 }
 
@@ -33,9 +27,27 @@ p{
   font-size: 14px;
 }
 
-.header{
+.flatiron{
   background: url(../../resources/images/the-flatiron-building.png);
 }
-.main-nav a{
+
+.main-nav li{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+h1,
+.white,
+.white a,
+h3.white{
   color: white;
+}
+
+.footer{
+  background-color: dimgray;
+  text-align: left;
+}
+
+#smallfont{
+  font-size: 11px;
 }
